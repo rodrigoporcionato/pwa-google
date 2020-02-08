@@ -20,6 +20,12 @@
   box-sizing: border-box;
 }
 
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
+
 html,
 body {
   color: #444;
